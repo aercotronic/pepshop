@@ -43,7 +43,7 @@ export default function ProductDetailPage({
         ← Back to products
       </Link>
 
-      <div className="card p-7 space-y-5">
+      <div className="focus-bg card p-7 space-y-5">
         <div className="flex flex-col gap-2">
           <h1 className="text-2xl font-bold">{product.name}</h1>
           <div className="text-white font-semibold">${product.price}</div>

@@ -12,8 +12,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <Header />
+<body className="bg-glow edge-lines noise">
+          <Header />
         <main className="container py-10">{children}</main>
         <Footer />
       </body>

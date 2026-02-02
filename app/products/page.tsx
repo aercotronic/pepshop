@@ -3,7 +3,7 @@ import { products } from "@/lib/products";
 
 export default function ProductsPage() {
   return (
-    <div className="space-y-6">
+    <div className="page-enter space-y-6">
       <div className="space-y-2">
         <h1 className="text-2xl font-bold">Products</h1>
         <p className="muted text-sm">

@@ -4,7 +4,7 @@ export default function ContactPage() {
   const email = site.contactEmail;
 
   return (
-    <div className="space-y-6">
+    <div className="page-enter space-y-6">
       <h1 className="text-2xl font-bold">Contact</h1>
 
       <div className="card p-7 space-y-4">
